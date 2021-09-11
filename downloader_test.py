@@ -8,3 +8,6 @@ class SimplisticTest(unittest.TestCase):
 
     def test_dr(self):
         self.assertTrue(True)
+
+if __name__ == '__main__':
+    unittest.main()
