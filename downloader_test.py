@@ -3,3 +3,8 @@
 
 import downloader
 import unittest
+
+class SimplisticTest(unittest.TestCase):
+
+    def test_dr(self):
+        self.assertTrue(True)
