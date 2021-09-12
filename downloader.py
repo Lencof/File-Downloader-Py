@@ -18,4 +18,4 @@ for link in soup.find_all('a'):
             response = get(url)
             file.write(response.content)
     else:
-        continue
+        print()
