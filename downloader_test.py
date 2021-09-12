@@ -1,8 +1,10 @@
 # __Author__ __Lencof__
 # downloader_test.py
 
-import downloader
+from downloader import DW
 import unittest
+
+print(DW)
 
 class SimplisticTest(unittest.TestCase):
 
