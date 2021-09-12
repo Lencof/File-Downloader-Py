@@ -7,8 +7,8 @@ from requests import get
 
 DW = '''
      __Author__ __Lencof__
-
-    '''
+     # downloader.py
+     '''
 
 
 page = requests.get(input('your URL'))
