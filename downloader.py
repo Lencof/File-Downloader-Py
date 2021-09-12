@@ -5,6 +5,11 @@ from bs4 import BeautifulSoup
 import requests
 from requests import get
 
+DW = '''
+     __Author__ __Lencof__
+
+    '''
+
 
 page = requests.get(input('your URL'))
 filetype = '.' + input('Enter File Extension (with no dot): ')
