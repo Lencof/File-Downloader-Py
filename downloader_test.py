@@ -8,7 +8,7 @@ print(DW)
 
 class SimplisticTest(unittest.TestCase):
 
-    def test_dr(self):
+    def test_dw(self):
         self.assertTrue(True)
 
 if __name__ == '__main__':
