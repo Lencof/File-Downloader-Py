@@ -1,3 +1,3 @@
-<img src="https://i.imgur.com/Eu3NtrU.png">
+<img src="https://imgur.com/a/K5sDe2X">
 
 # File-Downloader-Py
