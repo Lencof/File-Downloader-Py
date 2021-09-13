@@ -12,7 +12,7 @@ DW = '''
 
 print(DW)
 
-page = requests.get(input('your URL'))
+page = requests.get(input('URL'))
 filetype = '.' + input('Enter File Extension (with no dot): ')
 soup = BeautifulSoup(page.text, 'html.parser')
 
