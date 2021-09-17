@@ -9,3 +9,5 @@ Download Python from this site go to this link and download https://www.python.o
 ## Install
 - Clone the repository `git clone https://github.com/Lencof/File-Downloader-Py`
 - Install requirements.txt `pip install -r requirements.txt`
+
+## Use Pyinstaller
