@@ -24,5 +24,5 @@ for link in soup.find_all('a'):
         with open(url, 'wb') as file:
             response = get(url)
             file.write(response.content)
-               else:
-                    print(' None, not connected ')
+        else:
+          print(' None, not connected ')
