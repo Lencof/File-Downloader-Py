@@ -15,7 +15,7 @@ print(DW)
 
 page = requests.get(input('URL'))
 filetype = '.' + input('Enter File Extension (with no dot): ')
-soup = BeautifulSoup(page.text, 'html.parser')
+soup = BeautifulSoup(page.text, 'test.html')
 
 for link in soup.find_all('a'):
     url = link.get('href')
