@@ -1,5 +1,4 @@
-import urllib
-import requests
+import urllib, requests
 
 url = 'https://workspace.google.com//en/googleblogs/pdfs/google_predicting_the_present.pdf' # random project pdf file
 urllib.urlretrieve(url, "test2.pdf")
